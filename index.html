@@ -744,55 +744,172 @@
   </section>
 
   <!-- ML PROJECTS -->
-  <section class="portfolio-block" id="ml-projects">
+  <section class="portfolio-block" id="ml-courses">
     <div class="block-header">
-      <div class="section-label">Portfolio</div>
+      <div class="section-label">Learning & Development</div>
       <h2 class="block-title">
-        <span class="block-icon icon-projects">🤖</span>
+        <span class="block-icon icon-ml">🎓</span>
         Machine Learning Projects
       </h2>
     </div>
     <div class="cards-grid">
+
+      <!-- 1 -->
       <div class="card">
-        <div class="card-type">Classification · Credit Risk</div>
-        <div class="card-title">Credit Default Prediction Model</div>
+        <div class="card-type">1 · Regression · Supervised Learning</div>
+        <div class="card-title">Linear Regression Basics</div>
         <div class="card-desc">
-          Built a binary classification model to predict loan default probability using customer repayment history, behavioural features, and account-level data. Applied feature engineering, SMOTE for class imbalance, and hyperparameter tuning.
+          Implements Simple Linear Regression using Python and Scikit-learn. Covers data exploration, EDA, train-test split, model training, and evaluation using MSE and R² Score. Predicts house prices from a continuous variable.
         </div>
         <div class="card-tags">
-          <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">XGBoost</span>
+          <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span>
         </div>
-        <a href="https://github.com/Bryan-Kamanda" target="_blank" class="card-link">View on GitHub →</a>
+        <a href="https://github.com/Bryankamanda/1-Linear-regresion-prac" target="_blank" class="card-link">View on GitHub →</a>
       </div>
 
+      <!-- 2 -->
       <div class="card">
-        <div class="card-type">Regression · Forecasting</div>
-        <div class="card-title">Sales Performance Forecasting</div>
+        <div class="card-type">2 · Regression · Multiple Features</div>
+        <div class="card-title">Multivariate Linear Regression</div>
         <div class="card-desc">
-          Developed a time-series forecasting model for bank product sales across multiple channels. Used regression and ARIMA techniques to project monthly targets and identify seasonal trends.
+          Extends simple regression by incorporating multiple predictors. Demonstrates how different features collectively influence a target variable, with applications in financial forecasting and customer behaviour analysis.
         </div>
         <div class="card-tags">
-          <span class="tag">Python</span><span class="tag">NumPy</span><span class="tag">ARIMA</span><span class="tag">Matplotlib</span>
+          <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span><span class="tag">NumPy</span>
         </div>
-        <a href="https://github.com/BryanKamanda" target="_blank" class="card-link">View on GitHub →</a>
+        <a href="https://github.com/Bryankamanda/2-Multivariate-Regression" target="_blank" class="card-link">View on GitHub →</a>
       </div>
 
+      <!-- 3 -->
       <div class="card">
-        <div class="card-type">NLP · Sentiment Analysis</div>
-        <div class="card-title">Customer Feedback Sentiment Classifier</div>
+        <div class="card-type">3 · Feature Engineering · Encoding</div>
+        <div class="card-title">Dummy Variables & One-Hot Encoding</div>
         <div class="card-desc">
-          Built a text classification pipeline to analyse customer feedback and automatically label sentiment (positive / neutral / negative) to support product improvement decisions.
+          Demonstrates how to handle categorical variables using dummy variables and one-hot encoding — essential preprocessing techniques for ML models. Covers the distinction between encoding strategies and the dummy variable trap.
         </div>
         <div class="card-tags">
-          <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Scikit-learn</span><span class="tag">NLTK</span>
+          <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Feature Engineering</span>
         </div>
-        <a href="https://github.com/BryanKamanda" target="_blank" class="card-link">View on GitHub →</a>
+        <a href="https://github.com/Bryankamanda/3-Dummy-variables-and-one-hot-encoding" target="_blank" class="card-link">View on GitHub →</a>
       </div>
 
-      <div class="card card-add" onclick="window.open('https://github.com/BryanKamanda','_blank')">
-        <div class="add-icon">+</div>
-        <span>Add ML Project</span>
+      <!-- 4 -->
+      <div class="card">
+        <div class="card-type">4 · ML Pipeline · Data Splitting</div>
+        <div class="card-title">Train-Test Split for Machine Learning</div>
+        <div class="card-desc">
+          A practical guide to correctly dividing datasets into training and testing sets. Covers data leakage prevention, reproducibility via random state, and split ratios — using car price data as a real-world example.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Pandas</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/4-How-to-Split-train-and-test-data-for-ML" target="_blank" class="card-link">View on GitHub →</a>
       </div>
+
+      <!-- 5 -->
+      <div class="card">
+        <div class="card-type">5 · Classification · Binary</div>
+        <div class="card-title">Logistic Regression – Binary Classification</div>
+        <div class="card-desc">
+          Implements Logistic Regression for binary classification using insurance data. Covers the sigmoid function, decision boundary, probability-based prediction, and model evaluation with accuracy and confusion matrix.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">Classification</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/5-Logistic-Regression" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 6 -->
+      <div class="card">
+        <div class="card-type">6 · Classification · Multiclass</div>
+        <div class="card-title">Logistic Regression – Multiclass (Digits)</div>
+        <div class="card-desc">
+          Extends Logistic Regression to classify handwritten digits (0–9) using Scikit-learn's digits dataset (1,797 samples, 64 pixel features). Applies One-vs-Rest strategy and evaluates accuracy and confusion matrix.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">Scikit-learn</span><span class="tag">OvR</span><span class="tag">NumPy</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/6-Logistic-Regression-Multiclass-Classification-" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 7 -->
+      <div class="card">
+        <div class="card-type">7 · Classification · Tree-Based</div>
+        <div class="card-title">Decision Tree – Salary Prediction</div>
+        <div class="card-desc">
+          Applies a Decision Tree Classifier to predict whether an employee earns above $100K based on company, job role, and degree. Demonstrates categorical encoding, interpretable rule-based logic, and HR data analysis.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">Decision Tree</span><span class="tag">Scikit-learn</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/7-Decision-Tree" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 8 -->
+      <div class="card">
+        <div class="card-type">8 · Classification · Margin-Based</div>
+        <div class="card-title">Support Vector Machine (SVM) – Iris Classification</div>
+        <div class="card-desc">
+          Implements SVM to classify Iris flowers into 3 species (Setosa, Versicolor, Virginica). Covers hyperplane optimisation, One-vs-Rest multiclass strategy, kernel concepts, and model evaluation on the Iris dataset.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">SVM</span><span class="tag">Scikit-learn</span><span class="tag">Kernel</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/8-Support-Vector-Machine-SVM-" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 9 -->
+      <div class="card">
+        <div class="card-type">9 · Ensemble Learning · Classification</div>
+        <div class="card-title">Random Forest – Handwritten Digit Recognition</div>
+        <div class="card-desc">
+          Uses a Random Forest Classifier on the Digits dataset. Demonstrates bootstrap sampling, majority voting, variance reduction over single trees, and feature importance extraction.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">Random Forest</span><span class="tag">Scikit-learn</span><span class="tag">Bagging</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/9-Random-Forest" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 10 -->
+      <div class="card">
+        <div class="card-type">10 · Model Validation · Cross-Validation</div>
+        <div class="card-title">K-Fold Cross Validation – Digits Classification</div>
+        <div class="card-desc">
+          Demonstrates K-Fold Cross Validation to provide a robust model performance estimate beyond a single train-test split. Shows how average accuracy across folds reduces variance and detects overfitting.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">K-Fold</span><span class="tag">Scikit-learn</span><span class="tag">Validation</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/10-K-Fold-Cross-Validation" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 11 -->
+      <div class="card">
+        <div class="card-type">11 · Unsupervised Learning · Clustering</div>
+        <div class="card-title">K-Means Clustering – Customer Segmentation</div>
+        <div class="card-desc">
+          Applies K-Means Clustering to group individuals by age and income. Uses the Elbow Method to determine optimal K and visualises segments — demonstrating real-world customer profiling and market segmentation.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">K-Means</span><span class="tag">Scikit-learn</span><span class="tag">Matplotlib</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/11-K-Means-Clustering-Algorithm" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
+      <!-- 12 -->
+      <div class="card">
+        <div class="card-type">12 · Probabilistic · NLP</div>
+        <div class="card-title">Naïve Bayes – Titanic Survival & Spam Detection</div>
+        <div class="card-desc">
+          Implements Naïve Bayes on two problems: predicting Titanic survival from structured passenger data, and classifying email spam vs. ham using text vectorisation. Demonstrates probabilistic ML on both structured and unstructured data.
+        </div>
+        <div class="card-tags">
+          <span class="tag">Python</span><span class="tag">Naïve Bayes</span><span class="tag">NLP</span><span class="tag">Scikit-learn</span>
+        </div>
+        <a href="https://github.com/Bryankamanda/12-Naive-bayes-classifier" target="_blank" class="card-link">View on GitHub →</a>
+      </div>
+
     </div>
   </section>
 
